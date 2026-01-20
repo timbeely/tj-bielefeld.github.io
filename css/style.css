@@ -97,3 +97,22 @@ iframe {
 .pdf-link a:hover {
   text-decoration: underline;
 }
+.pdf-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.pdf-button a {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.pdf-button a:hover {
+  background-color: #1e40af;
+}
