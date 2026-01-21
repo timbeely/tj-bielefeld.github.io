@@ -132,3 +132,17 @@ iframe {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+.project-images-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 30px 0;
+  align-items: center;
+}
+
+.project-images-vertical img {
+  max-width: 100%;
+  width: 850px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
